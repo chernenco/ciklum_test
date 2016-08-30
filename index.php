@@ -15,7 +15,7 @@ case 'authorization':
 		die(json_encode(array('result' => 'ok')));
 	}
 break;
-case 'logout':   
+case 'logout':      
 	$obj=new User;
 	$result=$obj->logout();
 	die(json_encode(array('result' => 'ok')));
