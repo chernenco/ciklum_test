@@ -1,4 +1,4 @@
-5555<?include('lib.php');
+<?include('lib.php');
 $action = isset($_POST['action']) ? $_POST['action'] : '';
 switch ($action) {
 case 'authorization':
